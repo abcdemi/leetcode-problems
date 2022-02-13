@@ -19,3 +19,9 @@ class Solution:
             if interval.start < intervals[i].end:
                 return False
         return True
+
+sol = Solution
+Intervals = [Interval(0,25), Interval(3,9), Interval(13,17)]
+New_intervals = [Interval(1,3), Interval(4,5)]
+print(sol.canAttendMeetings(None, Intervals))
+print(sol.canAttendMeetings(None, New_intervals))

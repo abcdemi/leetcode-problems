@@ -1,6 +1,6 @@
 '''
 Meeting Rooms II.
-Give an array of meeting time intervals consisting of start and end times [[s1,e1],...],
+Given an array of meeting time intervals consisting of start and end times [[s1,e1],...],
 find the minimum number of rooms required
 '''
 
